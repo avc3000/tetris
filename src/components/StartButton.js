@@ -18,7 +18,7 @@ const StyledStartButton = styled.button`
 `;
 
 const StartButton = ({ callback }) => (
-  <StyledStartButton onClick={callback}>Start Game</StyledStartButton>
+  <StyledStartButton onClick={callback}>Iniciar Juego</StyledStartButton>
 );
 
 export default StartButton;
